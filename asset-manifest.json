@@ -1,8 +1,13 @@
 {
   "files": {
-    "main.css": "/o-barbershop-meung-public/static/css/main.6a030559.css",
-    "main.js": "/o-barbershop-meung-public/static/js/main.6d5fdd86.js",
+    "main.css": "/o-barbershop-meung-public/static/css/main.a340f4c0.css",
+    "main.js": "/o-barbershop-meung-public/static/js/main.4ec71c02.js",
     "static/js/453.336ba5a8.chunk.js": "/o-barbershop-meung-public/static/js/453.336ba5a8.chunk.js",
+    "static/media/poster-1.webp": "/o-barbershop-meung-public/static/media/poster-1.2a132ebcb16c16a18be1.webp",
+    "static/media/salon-3.webp": "/o-barbershop-meung-public/static/media/salon-3.8b51c83680a5469b1449.webp",
+    "static/media/salon-2.webp": "/o-barbershop-meung-public/static/media/salon-2.c137b2f96ac546e83d52.webp",
+    "static/media/poster-2.webp": "/o-barbershop-meung-public/static/media/poster-2.7ebfc5cf7ff77f7b0eec.webp",
+    "static/media/salon-1.webp": "/o-barbershop-meung-public/static/media/salon-1.926858e2d49a4c8bcd02.webp",
     "static/media/cormorant-garamond-latin-500-italic.woff": "/o-barbershop-meung-public/static/media/cormorant-garamond-latin-500-italic.cd343d42c0286150355d.woff",
     "static/media/anton-latin-ext-400-normal.woff2": "/o-barbershop-meung-public/static/media/anton-latin-ext-400-normal.6e1938b75b8a63a00ed5.woff2",
     "static/media/cormorant-garamond-latin-400-normal.woff": "/o-barbershop-meung-public/static/media/cormorant-garamond-latin-400-normal.411da0b03f7b5266c0aa.woff",
@@ -66,12 +71,12 @@
     "static/media/manrope-cyrillic-ext-500-normal.woff2": "/o-barbershop-meung-public/static/media/manrope-cyrillic-ext-500-normal.c803169a005534ccd3ce.woff2",
     "static/media/manrope-cyrillic-ext-700-normal.woff2": "/o-barbershop-meung-public/static/media/manrope-cyrillic-ext-700-normal.4ee2708831b279ef20f1.woff2",
     "index.html": "/o-barbershop-meung-public/index.html",
-    "main.6a030559.css.map": "/o-barbershop-meung-public/static/css/main.6a030559.css.map",
-    "main.6d5fdd86.js.map": "/o-barbershop-meung-public/static/js/main.6d5fdd86.js.map",
+    "main.a340f4c0.css.map": "/o-barbershop-meung-public/static/css/main.a340f4c0.css.map",
+    "main.4ec71c02.js.map": "/o-barbershop-meung-public/static/js/main.4ec71c02.js.map",
     "453.336ba5a8.chunk.js.map": "/o-barbershop-meung-public/static/js/453.336ba5a8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6a030559.css",
-    "static/js/main.6d5fdd86.js"
+    "static/css/main.a340f4c0.css",
+    "static/js/main.4ec71c02.js"
   ]
 }
