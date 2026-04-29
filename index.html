@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ô Barbershop | Meung-sur-Loire</title>
+  <meta name="description" content="Ô Barbershop, 10 Rue des Cordeliers à Meung-sur-Loire. Coupe, barbe, rasage traditionnel. Ouvert 24h/24." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Cormorant+Garamond:ital,wght@0,500;1,500&family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    :root{--bg:#111;--bg2:#1a1a1a;--text:#f4ebd0;--muted:#a19d94;--gold:#c5a059;--gold2:#e6c57a}
+    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;font-family:Manrope,sans-serif;background:var(--bg);color:var(--text)}
+    .wrap{max-width:1140px;margin:0 auto;padding:0 20px}
+    header{position:fixed;inset:0 0 auto 0;height:76px;background:rgba(17,17,17,.84);backdrop-filter:blur(10px);border-bottom:1px solid rgba(244,235,208,.1);z-index:20}
+    .row{display:flex;align-items:center;justify-content:space-between;height:76px}
+    .logo{font-family:Anton,sans-serif;letter-spacing:.08em;font-size:28px}
+    nav a{color:var(--muted);text-decoration:none;margin:0 10px;text-transform:uppercase;font-size:12px;letter-spacing:.2em}
+    .btn{display:inline-block;padding:14px 24px;text-decoration:none;background:var(--gold);color:#111;font-family:Anton,sans-serif;letter-spacing:.1em;text-transform:uppercase}
+    .hero{min-height:100vh;display:flex;align-items:flex-end;position:relative;background:url('https://images.unsplash.com/photo-1773863683180-f96a39a4804a?crop=entropy&cs=srgb&fm=jpg&q=85') center/cover no-repeat}
+    .hero:before{content:"";position:absolute;inset:0;background:linear-gradient(to top,#111 15%,rgba(17,17,17,.76) 45%,rgba(17,17,17,.2) 100%)}
+    .hero .content{position:relative;padding:150px 0 80px}
+    .k{font-family:"Cormorant Garamond",serif;font-style:italic;color:var(--gold);letter-spacing:.2em;text-transform:uppercase}
+    h1{font-family:Anton,sans-serif;font-size:clamp(54px,12vw,128px);line-height:.9;margin:10px 0}
+    h2{font-family:"Cormorant Garamond",serif;font-style:italic;font-weight:500}
+    section{padding:92px 0;border-top:1px solid rgba(244,235,208,.1)}
+    .grid{display:grid;grid-template-columns:1fr 1fr;gap:30px}
+    .card{background:var(--bg2);border:1px solid rgba(244,235,208,.1);padding:24px}
+    .menu-item{padding:16px 0;border-bottom:1px dashed rgba(244,235,208,.2)}
+    .line{display:flex;gap:10px;align-items:baseline}.line span{flex:1;border-bottom:1px dotted rgba(244,235,208,.2)}
+    .name,.price{font-family:Anton,sans-serif;letter-spacing:.05em;text-transform:uppercase}.price{color:var(--gold)}
+    .gallery{display:grid;grid-template-columns:repeat(12,1fr);gap:6px}.gallery img{width:100%;height:100%;object-fit:cover;display:block;min-height:210px}
+    .r1{grid-column:span 4}.r2{grid-column:span 8}
+    .stars{color:var(--gold)}
+    iframe{width:100%;min-height:360px;border:0}
+    footer{padding:48px 0;border-top:1px solid rgba(244,235,208,.1)}
+    .big{font-family:Anton,sans-serif;font-size:clamp(68px,14vw,200px);line-height:.85;color:rgba(244,235,208,.08)}
+    @media (max-width:900px){nav{display:none}.grid{grid-template-columns:1fr}.gallery .r1,.gallery .r2{grid-column:span 12}}
+  </style>
+</head>
+<body>
+<header><div class="wrap row"><div class="logo">Ô BARBERSHOP</div><nav><a href="#services">Services</a><a href="#histoire">Histoire</a><a href="#galerie">Galerie</a><a href="#contact">Contact</a></nav><a class="btn" href="https://www.planity.com/o-barber-shop-45130-meung-sur-loire" target="_blank" rel="noreferrer">Réserver</a></div></header>
+<section class="hero"><div class="wrap content"><div class="k">10 Rue des Cordeliers, Meung-sur-Loire</div><h1>Ô BARBERSHOP</h1><h2>L'Art du Rasage Traditionnel & de la Coupe</h2><p><a class="btn" href="https://www.planity.com/o-barber-shop-45130-meung-sur-loire" target="_blank" rel="noreferrer">Prendre rendez-vous</a></p></div></section>
+<section id="histoire"><div class="wrap grid"><img src="https://images.unsplash.com/photo-1760344654298-c3494ddf3b5c?crop=entropy&cs=srgb&fm=jpg&q=85" alt="barbier" style="width:100%;min-height:460px;object-fit:cover;border:1px solid rgba(244,235,208,.1)"><div><div class="k">Notre Histoire</div><h2 style="font-size:40px">Précision, tradition, élégance</h2><p style="color:var(--muted)">Salon premium ouvert 24h/24, Ô Barbershop marie gestes traditionnels et finition moderne pour une expérience 5 étoiles.</p></div></div></section>
+<section id="services"><div class="wrap"><div class="k">Services & Tarifs</div><div class="card"><div class="menu-item"><div class="line"><div class="name">Coupe Homme</div><span></span><div class="price">25€</div></div></div><div class="menu-item"><div class="line"><div class="name">Coupe Enfant</div><span></span><div class="price">20€</div></div></div><div class="menu-item"><div class="line"><div class="name">Barbe</div><span></span><div class="price">15€</div></div></div><div class="menu-item"><div class="line"><div class="name">Rasage Traditionnel</div><span></span><div class="price">20€</div></div></div><div class="menu-item"><div class="line"><div class="name">Coupe + Barbe</div><span></span><div class="price">35€</div></div></div><div class="menu-item"><div class="line"><div class="name">Coloration</div><span></span><div class="price">Sur devis</div></div></div></div></div></section>
+<section id="galerie"><div class="wrap"><div class="k">Galerie</div><div class="gallery"><img class="r1" src="https://images.pexels.com/photos/12464842/pexels-photo-12464842.jpeg" alt=""><img class="r2" src="https://images.pexels.com/photos/32329619/pexels-photo-32329619.jpeg" alt=""><img class="r2" src="https://images.pexels.com/photos/3993448/pexels-photo-3993448.jpeg" alt=""><img class="r1" src="https://images.unsplash.com/photo-1768938896401-fe52fd18d3af?crop=entropy&cs=srgb&fm=jpg&q=85" alt=""></div></div></section>
+<section><div class="wrap grid"><div class="card"><div class="stars">★★★★★</div><p style="font-family:'Cormorant Garamond',serif;font-style:italic;font-size:30px">"Service impeccable et coupe parfaite."</p></div><div class="card"><div class="stars">★★★★★</div><p style="font-family:'Cormorant Garamond',serif;font-style:italic;font-size:30px">"Un vrai savoir-faire traditionnel."</p></div></div></section>
+<section id="contact"><div class="wrap grid"><div class="card"><h2 style="margin-top:0">Contact</h2><p>10 Rue des Cordeliers, 45130 Meung-sur-Loire</p><p><a href="tel:+33659145071" style="color:var(--gold)">+33 6 59 14 50 71</a></p><p>Ouvert 24h/24, 7j/7</p><p><a class="btn" href="https://www.planity.com/o-barber-shop-45130-meung-sur-loire" target="_blank" rel="noreferrer">Réserver sur Planity</a></p></div><div class="card" style="padding:0"><iframe title="map" src="https://www.google.com/maps?q=10+Rue+des+Cordeliers,+45130+Meung-sur-Loire,+France&output=embed" loading="lazy"></iframe></div></div></section>
+<footer><div class="wrap"><div class="big">Ô BARBER</div><p style="color:var(--muted)">© 2026 Ô Barbershop</p></div></footer>
+</body>
+</html>
